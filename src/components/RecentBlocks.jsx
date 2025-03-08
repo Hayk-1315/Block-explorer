@@ -2,7 +2,7 @@ import shortConvertTimestamp from '../utils/shortConvertTimestamp.js';
 import React from 'react';
 import { Link } from "react-router-dom";
 
-//vista toda la página
+
 function RecentBlocks(props) {
     const { blocks } = props;
 
