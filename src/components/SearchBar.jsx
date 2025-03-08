@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useHistory } from 'react-router-dom';
-//vista toda la página
+
 function SearchBar(props) {
     const { latestBlock } = props;
     const [searchTerm, setSearchTerm] = useState('');
