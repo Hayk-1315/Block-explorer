@@ -48,5 +48,5 @@ function Nft({alchemy}) {
 }
 
 export default Nft;
-// <p> Open Sea floor price: {floorPrice.openSea.floorPrice} </p>
+
 
