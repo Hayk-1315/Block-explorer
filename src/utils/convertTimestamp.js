@@ -2,7 +2,7 @@ export default function convertTimestamp(timestamp) {
     if(!timestamp) {
         return null;
     }
-    // visto toda la página https://www.influxdata.com/blog/how-get-convert-format-javascript-date-timestamp/
+   
     const date = new Date(timestamp * 1000);
     const now = new Date();
   
