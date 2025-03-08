@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 const { Utils } = require('alchemy-sdk');
-// vista toda la página
+
 
 function TransactionDetails() {
     const { transactionHash } = useParams();
