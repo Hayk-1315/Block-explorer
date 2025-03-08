@@ -1,5 +1,5 @@
 export default function shortConvertTimestamp(timestamp) {
-    // visto toda la página
+   
     const nowMilli = Date.now();
     const nowSec = nowMilli / 1000;
     const difference = Math.floor(nowSec - timestamp);
