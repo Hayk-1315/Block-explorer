@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom/cjs/react-router-dom.min';
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 import { Utils } from 'alchemy-sdk';
-//visto toda la página
+
 function BlockTransactions() {
     const { blockNumber } = useParams();
     const [block, setBlock] = useState();
@@ -145,4 +145,3 @@ function BlockTransactions() {
 }
 
 export default BlockTransactions
-//visto toda la página
