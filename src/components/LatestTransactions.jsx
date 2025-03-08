@@ -2,7 +2,7 @@ import shortConvertTimestamp from '../utils/shortConvertTimestamp.js';
 import React, { useState, useEffect } from 'react';
 import alchemy from '../alchemy';
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
-//vista toda la página
+
 function LatestTransactions(props) {
     const { blocks } = props;
     const [blockTxns, setBlockTxns] = useState();
