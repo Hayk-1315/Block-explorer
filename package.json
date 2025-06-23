@@ -1,8 +1,24 @@
 {
-  "name": "blockexplorer",
+  "name": "block-explorer",
   "version": "0.1.0",
   "private": true,
+  "description": "A lightweight Ethereum block explorer built with React and Alchemy SDK, part of my Ethereum Developer Bootcamp projects",
+  "author": "Albert Khudaverdyan",
+  "license": "MIT",
+  "keywords": [
+    "blockchain",
+    "ethereum",
+    "block-explorer",
+    "react",
+    "alchemy-sdk"
+  ],
   "type": "module",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
@@ -17,11 +33,8 @@
     "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+  "devDependencies": {
+    "tailwindcss": "^3.3.1"
   },
   "eslintConfig": {
     "extends": [
@@ -40,8 +53,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "tailwindcss": "^3.3.1"
   }
 }

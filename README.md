@@ -1,49 +1,67 @@
-# Ethereum Block Explorer
+# 🔍 Block-Explorer
 
-Blockexplorers give us the ability to view lots of different information about the blockchain including data about:
-  * the blockchain network itself
-  * blocks in the blockchain
-  * transactions in a block
-  * accounts
-  * getting details for individual transactions
-  * getting user balance
-  * NFT methods
-  * and many other things
+**Block-Explorer** is a lightweight Ethereum block explorer built with **React** and the **Alchemy SDK**.  
+It allows you to browse the Ethereum blockchain — view blocks, transactions, address balances, and even NFT metadata — all in one simple interface.
 
-  This project uses the AlchemySDK's core package (instead of Ethereum JSON-RPC API and the ethers.js library) giving us the ability to query the Ethereum blockchain and make transactions. The AlchemySDK's core package 
-  wraps almost all of the `ethers.js` provider functionality.
+---
 
-  In this project we chose to use React for a front-end.
-  
-## Getting Started
-Clone this project to pull down some basic starter code.
+## ✨ Features
+✅ Browse the most recent Ethereum blocks  
+✅ View transactions in each block  
+✅ Explore transaction details by hash  
+✅ Check account balances and transaction history  
+✅ Fetch NFT metadata for any address  
+✅ Built with React and powered by the Alchemy SDK
 
-After that cd into the base directory of the project and run `npm install` to download all the project dependencies.
+---
 
-## 1. Create a unique Alchemy API key
+## 🧠 What I learned
+This project helped me:
+- ✅ Get hands-on experience with the Alchemy SDK to query Ethereum data.
+- ✅ Implement dynamic routes with `react-router-dom` for blocks, transactions, and addresses.
+- ✅ Manage component state and side effects with React hooks.
+- ✅ Explore real-time blockchain data for educational purposes.
 
-If you have not already done so, create a unique Alchemy API Mainnet key
-for your project as [described here](https://docs.alchemy.com/reference/api-overview?a=eth-bootcamp).
+---
 
-## 2. Add your API key to as an environment variable for the project
+## 🏗️ Tech Stack
+- ⚛️ **Frontend:** React, react-router-dom
+- 🧰 **Blockchain Provider:** Alchemy SDK
+- 📄 **Language:** JavaScript (ES6+)
 
-Create an empty `.env` file in the base directory of this project.
+---
 
-Add the following line to the `.env` file replacing `YOUR_ALCHEMY_API_KEY` with your api key.
+## 🚀 Getting started
 
-```sh
+### 1️⃣ Clone this repo:
+```bash
+git clone https://github.com/Hayk-1315/Block-explorer.git
+cd block-explorer
+
+2️⃣ Install dependencies:
+npm install
+
+3️⃣ Get your Alchemy API key
+Sign up for Alchemy and create a Mainnet API key.
+Create a file named .env in the project’s root directory with:
+
 REACT_APP_ALCHEMY_API_KEY=YOUR_ALCHEMY_API_KEY
-```
+4️⃣ Run the app:
+npm start
+This will launch the app in development mode at
+👉 http://localhost:3000 — the page will automatically reload when you make changes.
 
-Do not remove the `REACT_APP_` prefix. React uses that to import env variables.
+🔮 Future improvements
+💡 Integrate Tailwind CSS for better UI and a modern look.
+💡 Improve error handling and add loading states.
+💡 Expand NFT features with image previews and links to marketplaces.
+💡 Refactor components for better code reuse and scalability.
 
-## 3. Start the webserver
+💬 Notes:
+This project is part of my growth as a blockchain developer — an early experiment built after completing the Alchemy University Ethereum Developer Bootcamp.
+If you liked it or learned something new, feel free to ⭐ it on GitHub!
 
-`npm start`
-
-Running the command above will run the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The webpage will automatically reload when you make code changes.
+✨ Thanks for checking it out! ✨
 
 
 
